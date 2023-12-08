@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite">
+    <test name="testCase7">
+        <parameter name="searchText" value="Adobe Photoshop CS4"></parameter>
+        <classes>
+            <class name="testingProject4.Project4">
+                <methods>
+                    <include name="parameterSearchTest"/>
+                    <include name="registrationTest"></include>
+                    <include name="loginTest"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
